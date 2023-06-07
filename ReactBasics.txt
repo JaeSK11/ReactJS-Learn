@@ -1,0 +1,4 @@
+Render React Element, putting elements onto the page
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+root.render(myElement);
